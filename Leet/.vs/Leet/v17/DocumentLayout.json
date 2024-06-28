@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|solutionrelative:problems\\p2255.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|c:\\users\\admin\\desktop\\leet\\leet\\problems\\p2216.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|solutionrelative:problems\\p2216.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|c:\\users\\admin\\desktop\\leet\\leet\\problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|solutionrelative:problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "P2216.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\P2216.cs",
+              "RelativeDocumentMoniker": "Problems\\P2216.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\P2216.cs",
+              "RelativeToolTip": "Problems\\P2216.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:28:35.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\Program.cs",
+              "RelativeDocumentMoniker": "Problems\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\Program.cs",
+              "RelativeToolTip": "Problems\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:26:56.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,22 +62,9 @@
               "RelativeDocumentMoniker": "Problems\\P2255.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\P2255.cs",
               "RelativeToolTip": "Problems\\P2255.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T13:17:25.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\Program.cs",
-              "RelativeDocumentMoniker": "Problems\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\Program.cs",
-              "RelativeToolTip": "Problems\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:46:14.541Z",
+              "WhenOpened": "2024-06-27T13:17:25.772Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +75,7 @@
               "RelativeDocumentMoniker": "Problems\\P2571.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\P2571.cs",
               "RelativeToolTip": "Problems\\P2571.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T12:18:43.645Z",
               "EditorCaption": ""
