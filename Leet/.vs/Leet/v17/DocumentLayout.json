@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\leet\\Leet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|c:\\users\\admin\\desktop\\leet\\leet\\problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|solutionrelative:problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|c:\\users\\admin\\desktop\\leet\\leet\\problems\\p735.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD42264B-0EB4-4284-B092-CE075D1E4F2A}|Problems\\Problems.csproj|solutionrelative:problems\\p735.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\Program.cs",
+              "RelativeDocumentMoniker": "Problems\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\Program.cs",
+              "RelativeToolTip": "Problems\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:06:52.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "P735.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\P735.cs",
+              "RelativeDocumentMoniker": "Problems\\P735.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\leet\\Leet\\Problems\\P735.cs",
+              "RelativeToolTip": "Problems\\P735.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T14:39:20.349Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
