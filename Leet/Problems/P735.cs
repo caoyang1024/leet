@@ -5,6 +5,7 @@ namespace Problems;
 
 /// <summary>
 /// 735. Asteroid Collision
+/// 2024-07-01
 /// </summary>
 public class P735
 {
