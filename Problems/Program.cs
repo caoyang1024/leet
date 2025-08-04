@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        P62 p62 = new P62();
-        Console.WriteLine(p62.UniquePaths(51, 9));
+        P322 p = new P322();
+        Console.WriteLine(p.CoinChange([ 2], 3));
     }
 }
