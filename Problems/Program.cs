@@ -6,7 +6,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        P322 p = new P322();
-        Console.WriteLine(p.CoinChange([ 2], 3));
+        P300 p = new();
+        Console.WriteLine(p.LengthOfLIS([10, 9, 2, 5, 3, 7, 101, 18]));
+
     }
 }
