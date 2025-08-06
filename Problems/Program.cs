@@ -1,62 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Problems;
 
 public class Program
 {
-    public IList<IList<int>> ThreeSum(int[] nums)
+    public static void Main(string[] args)
     {
-        Array.Sort(nums);
+        Q19 q = new();
 
-        List<IList<int>> list = new List<IList<int>>();
+        ListNode n5 = new ListNode(5, null);
+        ListNode n4 = new ListNode(4, n5);
+        ListNode n3 = new ListNode(3, n4);
+        ListNode n2 = new ListNode(2, n3);
+        ListNode n1 = new ListNode(1, n2);
 
-        for (int i = 0; i < nums.Length; i++)
+        q.RemoveNthFromEnd(n5, 1);
+
+        var r1 = n5;
+
+        while (r1 != null)
         {
-            if (nums[i] > 0)
-            {
-                return list;
-            }
-
-            if (i > 0 && nums[i] == nums[i - 1])
-            {
-                continue;
-            }
-
-            var twoSumList = TwoSum(nums, i + 1, nums.Length - 1, -nums[i]);
-
-            foreach (var pair in twoSumList)
-            {
-                list.Add([nums[i], pair.Item1, pair.Item2]);
-            }
+            Console.WriteLine(r1.val);
+            r1 = r1.next;
         }
-
-        return list;
-    }
-
-    private List<(int, int)> TwoSum(int[] nums, int i, int j, int target)
-    {
-        HashSet<(int, int)> twoSum = new HashSet<(int, int)>();
-
-        while (i < j)
-        {
-            if (nums[i] + nums[j] > target)
-            {
-                j--;
-            }
-            else if (nums[i] + nums[j] < target)
-            {
-                i++;
-            }
-            else
-            {
-                twoSum.Add((nums[i], nums[j]));
-                i++;
-                j--;
-            }
-        }
-
-        return twoSum.ToList();
     }
 }
