@@ -7,16 +7,16 @@ public class P1
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        Dictionary<int, int> numIndices = new Dictionary<int, int>();
+        Dictionary<int, int> numIndex = [];
 
         for (int i = 0; i < nums.Length; i++)
         {
-            if (numIndices.TryGetValue(target - nums[i], out int index))
+            if (numIndex.TryGetValue(target - nums[i], out int index))
             {
                 return [index, i];
             }
 
-            numIndices[nums[i]] = i;
+            numIndex[nums[i]] = i;
         }
 
         throw new ArgumentException();
