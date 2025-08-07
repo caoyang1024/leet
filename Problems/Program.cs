@@ -7,7 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Q131 q = new();
-        Console.WriteLine(JsonSerializer.Serialize(q.Partition("aab")));
+        Q46 q = new();
+        Console.WriteLine(JsonSerializer.Serialize(q.Permute([1, 2, 3])));
     }
 }

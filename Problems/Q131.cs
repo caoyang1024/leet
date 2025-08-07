@@ -5,49 +5,51 @@ namespace Problems;
 
 public class Q131
 {
-    /*
-     * Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.
-     *
-     *Example 1:
-
-       Input: s = "aab"
-       Output: [["a","a","b"],["aa","b"]]
-       Example 2:
-
-       Input: s = "a"
-       Output: [["a"]]
-     */
-
-    private bool IsPalindrome(ReadOnlySpan<char> span, int i, int j)
-    {
-        while (i < j)
-        {
-            if (span[i] != span[j])
-            {
-                return false;
-            }
-
-            i++;
-            j--;
-        }
-
-        return true;
-    }
-
     public IList<IList<string>> Partition(string s)
     {
         var span = s.AsSpan();
 
         List<IList<string>> list = [];
 
-        for (int i = 0; i < span.Length; i++)
-        {
-            for (int j = 0; j < span.Length; j++)
-            {
-                throw new NotImplementedException();
-            }
-        }
+        Partition(span, 0, new List<string>(), list);
 
         return list;
+    }
+
+    private void Partition(ReadOnlySpan<char> span, int start, IList<string> list, IList<IList<string>> res)
+    {
+        if (start >= span.Length)
+        {
+            res.Add(new List<string>(list));
+            return;
+        }
+
+        for (var i = start; i < span.Length; i++)
+        {
+            if (IsPalindrome(span, start, i))
+            {
+                list.Add(span.Slice(start, i - start + 1).ToString());
+
+                Partition(span, i + 1, list, res);
+
+                list.RemoveAt(list.Count - 1);
+            }
+        }
+    }
+
+    private bool IsPalindrome(ReadOnlySpan<char> span, int lo, int hi)
+    {
+        while (lo < hi)
+        {
+            if (span[lo] != span[hi])
+            {
+                return false;
+            }
+
+            lo++;
+            hi--;
+        }
+
+        return true;
     }
 }
