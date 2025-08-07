@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Problems;
+namespace Problems.Backtrack;
 
 public class Q78
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Problems.QRT.DP;
+namespace Problems;
 
 public class Q53
 {
