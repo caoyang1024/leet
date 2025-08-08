@@ -9,10 +9,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Q98 q = new();
+        Q347 q = new();
 
         TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3)));
 
-        Console.WriteLine(JsonSerializer.Serialize(q.IsValidBST(root)));
+        var res = q.TopKFrequent([1, 1, 1, 2, 2, 3], 2);
+
+        Console.WriteLine(res);
+        Console.WriteLine(JsonSerializer.Serialize(res));
     }
 }
