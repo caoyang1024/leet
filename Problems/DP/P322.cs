@@ -1,9 +1,19 @@
 ﻿using System;
 
-namespace Problems;
+namespace Problems.DP;
 
 public class P322
 {
+    /*=====================================
+     *
+     * 322: Coin Change
+     * Stars: ⭐⭐⭐⭐⭐
+     * Difficulty: Medium
+     * My Difficulty: Medium
+     * DP, bottom-up
+     * O(n)
+     *
+     =====================================*/
     public int CoinChange(int[] coins, int amount)
     {
         int[] f = new int[amount + 1];
