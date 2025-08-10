@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Problems.QRT.ArrayPrefixSlidingWindow;
+namespace Problems.SlidingWindow;
 
 /*=====================================
  *

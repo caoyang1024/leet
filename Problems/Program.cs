@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text.Json;
 using Problems.ADT;
-using Problems.QRT.ArrayPrefixSlidingWindow;
+using Problems.SlidingWindow;
 
 namespace Problems;
 
