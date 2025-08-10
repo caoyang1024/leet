@@ -1,6 +1,6 @@
 ﻿using System;
 using Problems.ADT;
-using Problems.SlidingWindow;
+using Problems.DP;
 
 namespace Problems;
 
@@ -8,12 +8,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Q1438 q = new();
+        Q55 q = new();
 
         TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3)));
 
-        var res = q.LongestSubarray([1, 5, 6, 7, 8, 10, 6, 5, 6], 4);
-
-        Console.WriteLine(res);
+        Console.WriteLine(q.CanJump([0, 1]));
+        Console.WriteLine(q.CanJump([1]));
+        Console.WriteLine(q.CanJump([2, 3, 1, 1, 4]));
+        Console.WriteLine(q.CanJump([3, 2, 1, 0, 4]));
     }
 }
