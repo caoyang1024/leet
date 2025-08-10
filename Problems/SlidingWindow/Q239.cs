@@ -7,6 +7,8 @@ namespace Problems.SlidingWindow;
  *
  * 239: Sliding Window Maximum
  * Stars: ⭐⭐⭐⭐⭐
+ * Difficulty: Hard
+ * My Difficulty: Hard
  * Sliding Window
  * Monotonic Queue / Deque
  * O(n)

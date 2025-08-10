@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Text.Json;
 using Problems.ADT;
 using Problems.SlidingWindow;
 
@@ -10,19 +8,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Q239 q = new();
+        Q1438 q = new();
 
         TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3)));
 
-        var res = q.MaxSlidingWindow([1, 3, 1, 2, 0, 5], 3);
+        var res = q.LongestSubarray([1, 5, 6, 7, 8, 10, 6, 5, 6], 4);
 
-        if (res is IEnumerable e)
-        {
-            Console.WriteLine(JsonSerializer.Serialize(res));
-        }
-        else
-        {
-            Console.WriteLine(res);
-        }
+        Console.WriteLine(res);
     }
 }
