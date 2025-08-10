@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
+using System.Text.Json;
 using Problems.ADT;
-using Problems.PrefixSum;
+using Problems.QRT.ArrayPrefixSlidingWindow;
 
 namespace Problems;
 
@@ -8,12 +10,19 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Q560 q = new();
+        Q239 q = new();
 
         TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3)));
 
-        var res = q.SubarraySum([1, -1, -1, 2, 3, 2, 1, -1], 5);
+        var res = q.MaxSlidingWindow([1, 3, 1, 2, 0, 5], 3);
 
-        Console.WriteLine(res);
+        if (res is IEnumerable e)
+        {
+            Console.WriteLine(JsonSerializer.Serialize(res));
+        }
+        else
+        {
+            Console.WriteLine(res);
+        }
     }
 }
